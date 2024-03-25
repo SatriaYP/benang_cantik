@@ -496,6 +496,11 @@
   }
   .service-container {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
-  
+  .service-container h2 {
+    text-align: center;
+    margin: 100px;
+    color: #b535a8;
+    font-weight: bolder;
+  }
