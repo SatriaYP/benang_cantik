@@ -4,6 +4,10 @@
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
   }
+
+  body {
+    font-family: "Rhodium Libre", serif;
+  }
   
   .main-container {
     overflow: hidden;
@@ -390,4 +394,47 @@
     border: 1px solid #fafafa;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
+
+  .nav-link {
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .nav-item:hover {
+    background-color:#35B577; 
+    border-radius: 5px;
+  }
+  
+  .navbar-expand-lg {
+    max-height: 160px;
+  }
+  
+  .navbar-brand img {
+    max-height: 300px;
+    width: auto;
+  }
+  
+  .title-desc {
+      color: #35B577;
+  }
+  
+  .btn {
+      background-color: #35B577;
+  }
+  
+  .btn:hover {
+      background-color: #95bba8;
+  }
+  
+  .desc-content {
+      margin-top: 150px;
+  }
+  
+  .img-content {
+      margin-top: 10px;
+  }
+  
   
