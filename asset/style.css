@@ -1,0 +1,393 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1600px;
+    height: 833px;
+    margin: 0 auto;
+  }
+  .title {
+    position: relative;
+    width: 229px;
+    height: 48px;
+    margin: 49px 0 0 684px;
+    z-index: 37;
+  }
+  .contact-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 229px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .list {
+    position: relative;
+    width: 841px;
+    height: 576px;
+    margin: 79px 0 0 360px;
+    z-index: 1;
+  }
+  .kotak-hp {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    z-index: 19;
+  }
+  .telephone {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 21px 0 0 75px;
+    z-index: 23;
+    overflow: hidden;
+  }
+  .vector {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 7.822px 0 0 7.805px;
+    background: url(telephone.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 24;
+  }
+  .no-hp {
+    display: block;
+    position: relative;
+    height: 28px;
+    margin: 55px 0 0 35px;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 22;
+  }
+  .div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .div-bg {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background: #f5f7cf;
+    z-index: 21;
+  }
+  .div-kotak-jalan {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 641px;
+    z-index: 25;
+  }
+  .div-location {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin: 24px 0 0 76px;
+    background: url(location.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 29;
+    overflow: hidden;
+  }
+  .span-nama-jalan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 135px;
+    height: 84px;
+    margin: 28px 0 0 32px;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-overflow: initial;
+    z-index: 28;
+    overflow: hidden;
+  }
+  .div-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 26;
+  }
+  .div-bg-2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background: #f5f7cf;
+    z-index: 27;
+    box-shadow: 0 42.444px 61.308px 0 rgba(0, 0, 0, 0.08);
+  }
+  .div-shadow {
+    position: absolute;
+    width: 592px;
+    height: 395px;
+    top: 28px;
+    left: 125px;
+    background: url(shadow.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .form-contact {
+    position: absolute;
+    width: 515px;
+    height: 314px;
+    top: 71px;
+    left: 161px;
+    font-size: 0px;
+    z-index: 3;
+  }
+  .form {
+    display: block;
+    position: relative;
+    height: 28px;
+    margin: 21px 0 0 196.245px;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+  }
+  .input-form {
+    position: relative;
+    width: 385.476px;
+    height: 38px;
+    margin: 34px 0 0 63.524px;
+    font-size: 0px;
+    z-index: 6;
+    overflow: visible auto;
+  }
+  .rectangle {
+    position: absolute;
+    width: 385.476px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 7;
+  }
+  .input-form-3 {
+    position: relative;
+    width: 385.476px;
+    height: 38px;
+    margin: 18px 0 0 63.524px;
+    font-size: 0px;
+    z-index: 15;
+    overflow: visible auto;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 385.476px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 16;
+  }
+  .input-form-5 {
+    position: relative;
+    width: 385px;
+    height: 74px;
+    margin: 18px 0 0 64px;
+    font-size: 0px;
+    z-index: 12;
+    overflow: visible auto;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 385px;
+    height: 74px;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 13;
+  }
+  .button {
+    position: relative;
+    width: 51px;
+    height: 28px;
+    margin: -5px 0 0 232px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    z-index: 9;
+  }
+  .rectangle-7 {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    background: #43b0ff;
+    z-index: 10;
+  }
+  .submit {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    top: 0;
+    left: 0;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .wrapper-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4;
+  }
+  .bg {
+    position: absolute;
+    width: 515px;
+    height: 314px;
+    top: 0;
+    left: 0;
+    background: #f5f7cf;
+    z-index: 5;
+  }
+  .kotak-email {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 376px;
+    left: 318px;
+    z-index: 30;
+  }
+  .email {
+    position: relative;
+    width: 70px;
+    height: 50px;
+    margin: 47px 0 0 65px;
+    z-index: 33;
+    overflow: hidden;
+  }
+  .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 34;
+  }
+  .vector-8 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background: url(email.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 35;
+  }
+  .email-9 {
+    display: block;
+    position: relative;
+    height: 28px;
+    margin: 31px 0 0 7px;
+    color: #18181b;
+    font-family: Plus Jakarta Sans, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .section-6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 31;
+  }
+  .bg-a {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background: #f5f7cf;
+    z-index: 32;
+    box-shadow: 0 42.444px 61.308px 0 rgba(0, 0, 0, 0.08);
+  }
+  .bg-b {
+    position: absolute;
+    width: 1600px;
+    height: 833px;
+    top: 0;
+    left: 0;
+    background: #fafafa;
+    border: 1px solid #fafafa;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
