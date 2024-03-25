@@ -436,5 +436,52 @@
   .img-content {
       margin-top: 10px;
   }
-  
+  body {
+    background-color: #f8f9fa;
+  }
+
+  h2 {
+    color: #000000;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    color: #343a40;
+  }
+
+  .card-text {
+    color: #6c757d;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .btn-primary:focus,
+  .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+
+  .container {
+    margin-top: 40px;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    text-align: justify;
+  }
   
